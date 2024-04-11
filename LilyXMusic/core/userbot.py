@@ -47,7 +47,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"𝐋ɪʟʏ𝐱𝐀ssɪsᴛᴀɴᴛ sᴛᴀʀᴛ ʜᴏ ʀʜᴀ...")
+        LOGGER(__name__).info(f"𝐋ɪʟʏ𝐱𝐀ssɪsᴛᴀɴᴛ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐑ʜᴀ...")
         if config.STRING1:
             await self.one.start()
             try:
@@ -57,7 +57,7 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "𝐀ssɪsᴛᴀɴᴛ 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ")
+                await self.one.send_message(config.LOGGER_ID, "🦋𝐀ssɪsᴛᴀɴᴛ 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ🦋")
             except:
                 LOGGER(__name__).error(
                     "𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝟏 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ"
@@ -78,7 +78,7 @@ class Userbot(Client):
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "𝐀ssɪsᴛᴀɴᴛ 𝟐 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ")
+                await self.two.send_message(config.LOGGER_ID, "🦋𝐀ssɪsᴛᴀɴᴛ 𝟐 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ🦋")
             except:
                 LOGGER(__name__).error(
                     "𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝟐 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ"
@@ -99,7 +99,7 @@ class Userbot(Client):
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "𝐀𝐬𝐬ɪ𝐬ᴛᴀɴᴛ 𝟑 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ")
+                await self.three.send_message(config.LOGGER_ID, "🦋𝐀𝐬𝐬ɪ𝐬ᴛᴀɴᴛ 𝟑 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ🦋")
             except:
                 LOGGER(__name__).error(
                     "𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝟑 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ"
@@ -120,7 +120,7 @@ class Userbot(Client):
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "𝐀ssɪsᴛᴀɴᴛ 𝟒 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ")
+                await self.four.send_message(config.LOGGER_ID, "🦋𝐀ssɪsᴛᴀɴᴛ 𝟒 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ🦋")
             except:
                 LOGGER(__name__).error(
                     "𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝟒 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ"
@@ -144,7 +144,7 @@ class Userbot(Client):
                 await self.five.send_message(config.LOGGER_ID, "𝐀ssɪsᴛᴀɴᴛ 𝟓 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ")
             except:
                 LOGGER(__name__).error(
-                    "𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝟓 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ"
+                    "🦋𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝟓 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ🦋"
                 )
                 exit()
             self.five.id = self.five.me.id
