@@ -125,7 +125,7 @@ async def get_thumb(videoid,user_id):
         j = 0
         draw.text(
                     (30,10),
-                    f"{MUSIC_BOT_NAME}",
+                    f"{BOT_NAME}",
                     fill="white",
                     stroke_width=5,
                     stroke_fill="black",
