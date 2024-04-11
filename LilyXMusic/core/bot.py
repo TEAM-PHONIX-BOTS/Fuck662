@@ -29,7 +29,7 @@ class Anony(Client):
         try:
             await self.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"<u><b>» {self.mention} 𝐁ᴏᴛ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ :</b><u>\n\n𝐁ᴏᴛ 𝐊ɪ 𝐈ᴅ: <code>{self.id}</code>\n𝐁ᴏᴛ 𝐊ᴀ 𝐍ᴀᴍᴇ: {self.name}\n𝐁ᴏᴛ 𝐊ᴀ 𝐔sᴇʀɴᴀᴍᴇ : @{self.username}",
+                text=f"<u><b>» {self.mention} 𝐁ᴏᴛ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ🪄 :</b><u>\n\n❤️‍🔥𝐁ᴏᴛ 𝐊ɪ 𝐈ᴅ👀: <code>{self.id}</code>\n𝐁ᴏᴛ 𝐊ᴀ 𝐍ᴀᴍᴇ🍃: {self.name}\n𝐁ᴏᴛ 𝐊ᴀ 𝐔sᴇʀɴᴀᴍᴇ🕊: @{self.username}",
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
