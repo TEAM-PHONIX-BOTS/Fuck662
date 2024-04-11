@@ -62,16 +62,16 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="ⅠⅠ", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
+            text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
         ],
       [
             InlineKeyboardButton(
-                text="•𝐔ᴘᴅᴀᴛᴇs•", url="https://t.me/{SUPPORT_CHANNEL}",
+                text="•𝐂ᴏᴅᴇ𝐬-𝐎ᴡɴᴇʀ•", url="https://t.me/ITS_ARYAAN",
             ),
-            
+            InlineKeyboardButton(
+                text="•𝐔ᴘᴅᴀᴛᴇs•", url="https://t.me/THECCHUB",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝐂ʟᴏsᴇ-𝐊ᴀʀᴏ")],
@@ -90,10 +90,11 @@ def stream_markup(_, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="•𝐔ᴘᴅᴀᴛᴇs•", url="https://t.me/ITS_ARYAAN",
+                text="•𝐂ᴏᴅᴇs-𝐎ᴡɴᴇʀ•", url="https://t.me/ITS_ARYAAN",
             ),
-           
-            )
+            InlineKeyboardButton(
+                text="•𝐔ᴘᴅᴀᴛᴇs•", url="https://t.me/THECCHUB",
+)
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝐂ʟᴏsᴇ-𝐊ᴀʀᴏ")],
     ]
