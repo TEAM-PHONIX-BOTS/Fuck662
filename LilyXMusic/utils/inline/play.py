@@ -67,8 +67,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
       [
-            InlineKeyboardButton(
-                text="•𝐂ᴏᴅᴇs-𝐎ᴡɴᴇʀ•", url="https://t.me/ITS_ARYAAN",
+            
             ),
             InlineKeyboardButton(
                 text="•𝐔ᴘᴅᴀᴛᴇs•", url="https://t.me/THECCHUB",
@@ -89,8 +88,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="ⅠⅠ", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
-            InlineKeyboardButton(
-                text="•𝐂ᴏᴅᴇs-𝐎ᴡɴᴇʀ•", url="https://t.me/ITS_ARYAAN",
+            
             ),
             InlineKeyboardButton(
                 text="•𝐔ᴘᴅᴀᴛᴇs•", url="https://t.me/THECCHUB",
