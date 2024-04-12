@@ -49,9 +49,9 @@ def stream_markup_timer(_, chat_id, played, dur):
     elif 70 <= umm < 80:
         bar = "━━━━━━━━━❍─"
     elif 80 <= umm < 95:
-        bar = "━━━━━━━━━━❍"   
+        bar = "━━━━━━━━━━❍─"   
     else:
-        bar = "ﮩـﮩﮩ٨ـ𝐋ɪʟʏﮩ٨ـﮩﮩ٨ـ "
+        bar = "━━━━━━━━━━━━❍"
     buttons = [
         [
             InlineKeyboardButton(text="⇄", callback_data=f"ADMIN Resume|{chat_id}"),
@@ -93,7 +93,7 @@ def stream_markup(_, chat_id):
                 text="•𝐂ᴏᴅᴇs-𝐎ᴡɴᴇʀ•", url="https://t.me/ITS_ARYAAN",
             ),
             InlineKeyboardButton(
-                text="•𝐔ᴘᴅᴀᴛᴇs•", url="https://t.me/{SUPPORT_CHANNEL}",
+                text="•𝐔ᴘᴅᴀᴛᴇs•", url="https://t.me/THECCHUB",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝐂ʟᴏsᴇ-𝐊ᴀʀᴏ")],
