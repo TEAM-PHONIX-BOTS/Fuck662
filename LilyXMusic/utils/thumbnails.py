@@ -9,7 +9,7 @@ import aiohttp
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 from unidecode import unidecode
 from youtubesearchpython.__future__ import VideosSearch
-from LilyXMusic import app
+from InflexMusic import app
 from config import YOUTUBE_IMG_URL
 
 def changeImageSize(maxWidth, maxHeight, image):
@@ -105,7 +105,7 @@ async def get_thumb(videoid):
                 await f.close()
 
     youtube = Image.open(f"cache/thumb{videoid}.png")
-    image1 = changeImageSize(1000, 500, youtube)
+    image1 = changeImageSize(1280, 720, youtube)
     image2 = image1.convert("RGBA")
     background = image2.filter(filter=ImageFilter.BoxBlur(20))
     enhancer = ImageEnhance.Brightness(background)
@@ -117,8 +117,8 @@ async def get_thumb(videoid):
 
 
     circle_thumbnail = crop_center_circle(youtube, 400, 20)
-    circle_thumbnail = circle_thumbnail.resize((300, 300))
-    circle_position = (110, 140)
+    circle_thumbnail = circle_thumbnail.resize((400, 400))
+    circle_position = (120, 160)
     background.paste(circle_thumbnail, circle_position, circle_thumbnail)
 
     text_x_position = 565
