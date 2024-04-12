@@ -119,4 +119,4 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ_ᴄʜᴀᴛ ᴜʀʟ ɪs ᴡʀᴏɴɢ. ᴘʟᴇᴀsᴇ ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ɪᴛ sᴛᴀʀᴛs ᴡɪᴛʜ https://"
-  )
+        )
